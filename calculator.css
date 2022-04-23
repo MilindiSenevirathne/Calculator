@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,800,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #04090f;
+}
+
+#mycal{
+    background-color: #0c2835;
+    padding: 10px;
+    width: 280px;
+    height: 55px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#output{
+    background-color: #0c2835;
+    padding: 10px;
+    width: 280px;
+    height: 100px;
+    text-align: right;
+    color: white;
+    font-size: 30px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    resize: both;
+    overflow: auto;
+}
+
+button {
+    width: 67px;
+    height: 67px;
+    padding: 15px;
+    margin-top: 3px;
+    color: #fff;
+    background: #0c2835;
+    place-items: center;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,.1);
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#r1-1
+{
+    background: rgb(235, 8, 133);
+}
+
+#r5-4
+{
+    background: rgb(235, 8, 133);
+}
+
+#r1-3
+{
+    background-color: rgb(235, 8, 133);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #60e706;
+	color: black;
+   }
+
